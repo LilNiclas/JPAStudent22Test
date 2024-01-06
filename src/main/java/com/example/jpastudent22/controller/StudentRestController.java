@@ -18,7 +18,7 @@ public class StudentRestController {
 
     @GetMapping("/")
     public String detteErRoden() {
-        return "Du er i roden af JPAStudent22";
+        return "Du er i roden af JPAStudent22, yo";
     }
 
     @GetMapping("/students")
